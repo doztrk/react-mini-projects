@@ -7,7 +7,7 @@ const flowerColors = {
 	Tulip: "#ffb6c1",
 	Daisy: "#f5deb3",
 	Lilly: "#C8AABF",
-	Violet: "#8F00FF",
+	Violet: "8F00FF",
 };
 
 const getFlowerColor = (name) => {
