@@ -7,6 +7,8 @@ import { Select } from "./my-components/select/Select.jsx";
 import { ColorPicker } from "./my-components/color-picker/ColorPicker.jsx";
 import { Login } from "./my-components/login/Login.jsx";
 import { ProductCard } from "./my-components/product-card/product-card.jsx";
+import { CustomProgressBar } from "./my-components/progress-bar/custom-progress-bar.jsx";
+
 function App() {
 	return (
 		<>
@@ -27,13 +29,14 @@ function App() {
 			
 			<Select />
 			<ColorPicker />
-			<Login />
-			*/}
-
+				<Login />
+				
 			<div className="product-card-container">
 				<ProductCard title="MEN'S T-SHIRT" price="65.90" discount={null} rate={4} image="../../images/Tshirt1.png" />
 				<ProductCard title="WOMEN'S TOP" price="70.00" discount={10} rate={5} image="../../images/Tshirt2.jpg" />
 			</div>
+			*/}
+			<CustomProgressBar />
 		</>
 	);
 }
